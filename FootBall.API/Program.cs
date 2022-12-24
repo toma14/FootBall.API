@@ -9,7 +9,6 @@ string connection = "ბაზის გზა";
 
 builder.Services.AddDbContext<UserContext>(opt => opt.UseSqlServer(connection));
 
-// Add services to the container.
 builder.Services.AddControllers();
 
 
